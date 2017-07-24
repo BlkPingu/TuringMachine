@@ -13,7 +13,7 @@ public class Controller {
     
     public void run() {
     	
-    	fillTape();
+    	band.tape = fillTape();
     	System.arraycopy(band, 0, tape, 0, band.getSize());
     	printTape();
     	
